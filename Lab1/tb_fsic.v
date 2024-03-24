@@ -397,7 +397,7 @@ FSIC #(
 	assign mprj_io[TXD_OFFSET +: pSERIALIO_WIDTH] = io_out[TXD_OFFSET +: pSERIALIO_WIDTH];
 	
     initial begin
-        $dumpfile("fir_sim.vcd");
+        $dumpfile("FSIC_FIR.vcd");
         $dumpvars(0, tb_fsic);
     end
     
